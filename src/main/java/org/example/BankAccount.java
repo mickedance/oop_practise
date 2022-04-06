@@ -1,5 +1,9 @@
 package org.example;
 
+/**
+ * BankAccount Class will contain information about the
+ * acountNumber, balance and to wich costumer.
+ */
 public class BankAccount {
 
     int AccountNumber;

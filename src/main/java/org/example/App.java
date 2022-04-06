@@ -1,7 +1,7 @@
 package org.example;
 
 /**
- * Hello world!
+ *  Exercise on a course at Lexicon, Sweden about OOP. Practise 1.
  *
  */
 public class App 
