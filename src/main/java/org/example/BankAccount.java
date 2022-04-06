@@ -2,13 +2,13 @@ package org.example;
 
 /**
  * BankAccount Class will contain information about the
- * acountNumber, balance and to wich costumer.
+ * acountNumber, balance and to which costumer.
  */
 public class BankAccount {
 
-    int AccountNumber;
-    int balance;
-    Customer customer;
+    private int AccountNumber;
+    private int balance;
+    private Customer customer;
 
     public BankAccount( int balance, Customer customer) {
         this.balance = balance;
@@ -44,13 +44,13 @@ public class BankAccount {
 
     public void withdraw(int amount){
         if(amount>0)
-            if(balance >= amount){
-                balance -= amount;
+            if(this.balance >= amount){
+                this.balance -= amount;
             }
     }
     public void deposit(int amount){
         if(amount>0)
-            balance += amount;
+            this.balance += amount;
     }
 }
 
